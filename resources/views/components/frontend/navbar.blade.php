@@ -26,7 +26,7 @@
                     class="lg:hidden fixed top-0 left-0 bg-black size-full duration-300 z-999 opacity-0 visible pointer-events-none menu-close fade-overlay">
                 </div>
                 <div
-                    class="flex lg:justify-center lg:basis-auto lg:grow max-lg:flex-col justify-start font-base max-lg:fixed max-lg:h-screen max-lg:px-5 max-lg:top-0 max-lg:-left-75 max-lg:z-9999 max-lg:bg-white dark:max-lg:bg-dark max-lg:w-72 max-lg:overflow-auto max-lg:duration-700 header-nav custom-scroll">
+                    class="flex lg:justify-center lg:basis-auto lg:grow max-lg:flex-col justify-start text-white font-base max-lg:fixed max-lg:h-screen max-lg:px-5 max-lg:top-0 max-lg:-left-75 max-lg:z-9999 max-lg:bg-indigo-950 dark:max-lg:bg-dark max-lg:w-72 max-lg:overflow-auto max-lg:duration-700 header-nav custom-scroll">
                     <div class="flex items-center relative z-9 py-6.25 lg:hidden">
                         <!-- Logo -->
                         <a href="{{ route('home') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -34,7 +34,7 @@
                                 alt="{{ $settings?->site_name ?? 'Logo' }}" />
                         </a>
                     </div>
-                    <ul class="lg:flex flex-wrap navbar-nav">
+                    <ul class="lg:flex text-white flex-wrap navbar-nav">
                         <li
                             class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 dark:max-lg:border-white/10 relative group">
                             <a class="lg:py-7.5 py-2 xl:px-5 lg:px-2 relative lg:inline-block block text-lg font-medium lg:text-white text-heading hover:text-secondary after:ml-1 after:-mt-1 after:inline-block after:size-2.5 after:bg-arrow-down after:bg-no-repeat after:bg-bottom max-lg:after:hidden"

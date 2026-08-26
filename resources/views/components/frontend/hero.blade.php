@@ -1,7 +1,7 @@
 <div class="page-content">
         <!-- Banner Style One -->
-        <div class="2xl:h-full lg:h-full overflow-hidden relative pb-12 lg:pb-20"
-            style="background-image: url('{{ asset('img/hero-bg.png') }}'); background-size: cover; background-position: center;">
+        <div class="2xl:h-full lg:h-full md:bg-cover bg-repeat-round  overflow-hidden relative pb-12 lg:pb-20"
+            style="background-image: url('{{ asset('img/hero-bg.png') }}'); ">
 
             <div
                 class="bg-black/20 lg:rounded-3xl lg:m-8.75 lg:mt-0 lg:top-8.75 2xl:h-full relative z-2 flex justify-between max-lg:text-center overflow-hidden pb-16">
@@ -146,18 +146,7 @@
                             </ul>
                         </div>
 
-                        <!-- Background Animated Circles -->
-                        <div class="twm-img-bg-circle-area">
-                            <div class="twm-img-bg-circle1-wrap">
-                                <div class="twm-img-bg-circle1 rotate-center"><span></span></div>
-                            </div>
-                            <div class="twm-img-bg-circle2-wrap">
-                                <div class="twm-img-bg-circle2 rotate-center-reverse"><span></span></div>
-                            </div>
-                            <div class="twm-img-bg-circle3-wrap">
-                                <div class="twm-img-bg-circle3 rotate-center"><span></span></div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <!-- Right Side Images & Graphics -->
