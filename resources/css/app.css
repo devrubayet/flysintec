@@ -16,6 +16,30 @@
     transform: translateX(100vw);
   }
 }
+@keyframes airplane {
+  0%, 100% {
+    transform: translateX(0px); /* শুরুতে এবং শেষে নিজ পজিশনে থাকবে */
+  }
+  50% {
+    transform: translateX(20px); /* মাঝপথে ১০ পিক্সেল ডানে যাবে */
+  }
+}
+@keyframes spinZ {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spinZ {
+  animation: spinZ 20s linear infinite;
+}
+
+.animate-slide-left {
+  animation: airplane 5s ease-in-out infinite; /* সময় একটু কমিয়ে ৩ সেকেন্ড এবং ease-in-out দিলে মুভমেন্ট অনেক স্মুথ লাগবে */
+}
 
 .animate-moveCloud {
   animation: moveCloud 15s linear infinite;

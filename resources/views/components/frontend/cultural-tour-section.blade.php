@@ -2,14 +2,14 @@
         <div class="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
             <!-- Left text -->
             <div>
-                <h2 class="text-2xl font-bold text-teal-700 mb-3">Cultural Tours</h2>
+                <h2 class="text-2xl font-bold text-indigo-700 mb-3">Cultural Tours</h2>
                 <p class="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
                     Explore ancient civilizations and vibrant cultures. Our tours take
                     you deep into the heart of the world's most fascinating destinations
                     with expert local guides.
                 </p>
                 <button
-                    class="bg-lime-400 hover:bg-lime-500 text-white font-bold px-6 py-3 rounded-full text-sm transition-all hover:scale-105">
+                    class="bg-indigo-400 hover:bg-indigo-500 text-white font-bold px-6 py-3 rounded-full text-sm transition-all hover:scale-105">
                     View More
                 </button>
             </div>

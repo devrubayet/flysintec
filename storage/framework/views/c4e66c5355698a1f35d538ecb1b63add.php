@@ -1,4 +1,4 @@
-<footer class="bg-teal-900 pt-14 pb-6 px-6 lg:px-16">
+<footer class="bg-indigo-950 pt-14 pb-6 px-6 lg:px-16">
     <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
         <!-- Brand -->
         <div>
@@ -26,7 +26,7 @@
                     </svg>
                 </a>
                 <a href="#"
-                    class="w-8 h-8 bg-white/10 hover:bg-lime-400 rounded-full flex items-center justify-center text-white/70 hover:text-white transition-all">
+                    class="w-8 h-8 bg-white/10 hover:bg-indigo-400 rounded-full flex items-center justify-center text-white/70 hover:text-white transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="2" y="2" width="20" height="20" rx="5" />
                         <circle cx="12" cy="12" r="4" />

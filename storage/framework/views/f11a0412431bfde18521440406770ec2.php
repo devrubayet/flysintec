@@ -55,7 +55,7 @@
 
                     <div
                         class="dest-card relative rounded-2xl overflow-hidden cursor-pointer ring-2 ring-white shadow-2xl scale-105">
-                        <img src="https://images.unsplash.com/photo-1516690553959-d9e47c0b3d74?w=400&h=300&fit=crop&auto=format"
+                        <img src="https://images.pexels.com/photos/9149367/pexels-photo-9149367.jpeg?w=400&h=300&fit=crop&auto=format"
                             alt="Maldives" class="w-full h-44 object-cover" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
