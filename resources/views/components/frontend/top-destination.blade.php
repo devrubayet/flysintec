@@ -1,99 +1,136 @@
-<section class="bg-indigo-900 py-16 px-6 lg:px-10 overflow-hidden">
-        <div class="max-w-screen-xl mx-auto">
-            <!-- Top copy -->
-            <div class="grid lg:grid-cols-2 gap-6 mb-10 items-center">
-                <div class="lg:pl-4">
-                    <h3 class="text-gold-400 text-xl font-bold mb-1">
-                        Most Favorite <span class="text-white">Tour Places!</span>
-                    </h3>
-                    <p class="text-white/60 text-sm leading-relaxed max-w-xs mb-5">
-                        Choosing a destination can be exciting but also a bit overwhelming
-                        with so many amazing places out there! Let's narrow it down a
-                        little.
-                    </p>
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="flex -space-x-2">
-                            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=40&h=40&fit=crop&auto=format&crop=face"
-                                class="w-8 h-8 rounded-full border-2 border-teal-800 object-cover" alt="" />
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&auto=format&crop=face"
-                                class="w-8 h-8 rounded-full border-2 border-teal-800 object-cover" alt="" />
-                            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=40&h=40&fit=crop&auto=format&crop=face"
-                                class="w-8 h-8 rounded-full border-2 border-teal-800 object-cover" alt="" />
-                        </div>
-                        <div>
-                            <p class="text-indigo-400 font-bold text-sm">3.5k</p>
-                            <p class="text-white/50 text-[10px] uppercase tracking-widest">
-                                Happy Customer
-                            </p>
-                        </div>
+<!--MOST FAVORITE TOUR PLACE SECTION START-->
+                        <div class="bg-light 2xl:p-12.5 xl:p-9 p-0">
+    <div class="relative bg-indigo-950 xl:rounded-3xl overflow-hidden">
+        <div class="lg:flex items-center max-w-405 mx-auto px-3 pb-7.5 md:p-7.5 pt-12.5 lg:px-5 lg:pt-25 lg:pb-18.75">
+            <div class="max-w-125">
+                 <div class="sm:mb-15 mb-7.5">
+                                            <h2 class="xl:text-46 md:text-40 text-3xl mb-3.5 text-white!">
+                                                <span class="text-citrusyellow">Most Favorite</span>
+                                                Tour Places!
+                                            </h2>
+                                            <div class="text-base sm:mb-15 mb-7.5 text-paleaqua!">Choosing a destination can be exciting but also a bit overwhelming with so many amazing places out there! Let's narrow it down a little. Are you dreaming of peaceful nature, buzzing cities, historical wonders, or relaxing beaches?</div>
+                                        </div>
+                <div class="flex mb-7.5">
+                    <div class="flex items-center mr-5 ">
+                        <span class="size-9 inline-flex rounded-full overflow-hidden border border-white -ml-2.5 first:ml-0">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="img" width="34" height="34" loading="lazy">
+                        </span>
+                        <span class="size-9 inline-flex rounded-full overflow-hidden border border-white -ml-2.5 first:ml-0">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="img" width="34" height="34" loading="lazy">
+                        </span>
+                        <span class="size-9 inline-flex rounded-full overflow-hidden border border-white -ml-2.5 first:ml-0">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80" alt="img" width="34" height="34" loading="lazy">
+                        </span>
                     </div>
-                    <button
-                        class="bg-gray-300 hover:bg-gray-400 text-indigo-800 font-bold px-6 py-3 rounded-full text-sm transition-all hover:scale-105">
-                        View More Destinations
-                    </button>
+                    <div class="trv-hpy-cus-count">
+                        <span class="block font-black text-22 text-secondary">3.5k</span>
+                        <p class="uppercase font-medium text-xs text-white">Happy Customer</p>
+                    </div>
                 </div>
-                <div class="hidden lg:block text-right">
-                    <p class="text-gold-400 text-5xl font-black leading-none">TOP!</p>
-                    <p class="text-white font-black leading-none text-top-dest">
-                        DESTINATION
-                    </p>
-                </div>
+                <a href="destination-detail.html" class="site-button butn-bg-shape">View More Destinations</a>
             </div>
-
-            <!-- Destination cards -->
-            <div class="relative">
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3" id="dest-grid">
-                    <div class="dest-card relative rounded-2xl overflow-hidden cursor-pointer">
-                        <img src="https://images.unsplash.com/photo-1540202404-a2f29016b523?w=400&h=300&fit=crop&auto=format"
-                            alt="Thailand" class="w-full h-44 object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
-                            <p class="text-white font-semibold text-sm">Thailand</p>
-                            <p class="text-white/70 text-xs">20 Listing</p>
+            <div class="lg:pl-25 max-lg:pt-7.5 font-base font-black 2xl:text-30xl xl:text-8xl lg:text-7xl text-4xl leading-[1.2] uppercase text-white">
+                <span class="block text-citrusyellow">Top!</span>
+                Destination
+            </div>
+        </div>
+        <div class="px-3 sm:px-8.5 pb-7.5">
+            <div class="">
+                <div class="!grid swiper trv-mf-tour-swiper">
+                    <div class="swiper-wrapper">
+                        <!--BOX-1 (Paris)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80" alt="Paris" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Paris</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">28 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-2 (Kashmir)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&auto=format&fit=crop&q=80" alt="Kashmir" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Kashmir</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">32 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-3 (Thailand)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600&auto=format&fit=crop&q=80" alt="Thailand" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Thailand</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">20 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-4 (Maldives)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&auto=format&fit=crop&q=80" alt="Maldives" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Maldives</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">40 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-5 (Indonesia)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&auto=format&fit=crop&q=80" alt="Indonesia" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Indonesia</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">80 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-6 (Bali)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1570789210967-2cac24afeb00?w=600&auto=format&fit=crop&q=80" alt="Bali" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Bali</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">20 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-7 (Mauritius)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1589182337358-2cb6a099fea5?w=600&auto=format&fit=crop&q=80" alt="Mauritius" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Mauritius</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">20 Listing</span>
+                                </h3>
+                            </div>
                         </div>
                     </div>
-
-                    <div
-                        class="dest-card relative rounded-2xl overflow-hidden cursor-pointer ring-2 ring-white shadow-2xl scale-105">
-                        <img src="https://images.pexels.com/photos/9149367/pexels-photo-9149367.jpeg?w=400&h=300&fit=crop&auto=format"
-                            alt="Maldives" class="w-full h-44 object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
-                            <p class="text-lime-400 font-semibold text-sm">Maldives</p>
-                            <p class="text-white/70 text-xs">40 Listing</p>
-                        </div>
-                    </div>
-
-                    <div class="dest-card relative rounded-2xl overflow-hidden cursor-pointer">
-                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400&h=300&fit=crop&auto=format"
-                            alt="Indonesia" class="w-full h-44 object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
-                            <p class="text-white font-semibold text-sm">Indonesia</p>
-                            <p class="text-white/70 text-xs">80 Listing</p>
-                        </div>
-                    </div>
-
-                    <div class="dest-card relative rounded-2xl overflow-hidden cursor-pointer">
-                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400&h=300&fit=crop&auto=format"
-                            alt="Bali" class="w-full h-44 object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
-                            <p class="text-white font-semibold text-sm">Bali</p>
-                            <p class="text-white/70 text-xs">20 Listing</p>
-                        </div>
-                    </div>
-
-                    <div class="dest-card relative rounded-2xl overflow-hidden cursor-pointer">
-                        <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=400&h=300&fit=crop&auto=format"
-                            alt="Mauritius" class="w-full h-44 object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 right-0 p-3 text-center">
-                            <p class="text-white font-semibold text-sm">Mauritius</p>
-                            <p class="text-white/70 text-xs">20 Listing</p>
-                        </div>
-                    </div>
+                    <div class="swiper-button-next !size-14 rounded-full bg-citrusyellow text-white! hover:text-citrusyellow! hover:!bg-white after:text-base!"></div>
+                    <div class="swiper-button-prev !size-14 rounded-full bg-citrusyellow text-white! hover:text-citrusyellow! hover:!bg-white after:text-base!"></div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="absolute top-0 right-0 max-lg:w-[35%] max-md:!w-[30%] max-md:hidden">
+            <img src="{{ asset('img/man-rock.png') }}" alt="Image">
+        </div>
+    </div>
+</div>
+                        <!--MOST FAVORITE TOUR PLACE SECTION END-->

@@ -1,4 +1,4 @@
-<section class="bg-[#e8f8f5] py-20 px-6 lg:px-16 relative overflow-hidden">
+<section class="bg-[#e8f8f5] py-20 px-6 lg:px-16 relative border-b-6 border-indigo-800 overflow-hidden">
         <!-- Hot air balloon deco -->
         <div class="absolute left-4 bottom-8 text-6xl pointer-events-none select-none opacity-70">
             🎈
@@ -85,5 +85,22 @@
                 </button>
             </div>
         </div>
+        
+    <!-- Bottom Decorations (Marquee & Tree) inside relative section -->
+    <marquee direction="right" class="absolute left-0 bottom-0 z-2 pointer-events-none">
+        <div class="relative w-71 h-33.75">
+            <img class="absolute left-0 bottom-0 h-33.75" src="<?php echo e(asset('img/Left-Car.png')); ?>" alt="img" width="248" height="135" loading="lazy">
+            <span class="absolute left-[10.1%] bottom-0 w-[15%]">
+                <img src="<?php echo e(asset('img/Left-Car-tyre.png')); ?>" alt="img" class="animate-spin" width="43" height="43" loading="lazy">
+            </span>
+            <span class="absolute right-[20.8%] bottom-0 w-[15%]">
+                <img src="<?php echo e(asset('img/Left-Car-tyre.png')); ?>" alt="img" class="animate-spin" width="43" height="43" loading="lazy">
+            </span>
+        </div>
+    </marquee>
+
+    <div class="absolute right-0 bottom-0 z-0 w-55 pointer-events-none">
+        <img src="<?php echo e(asset('img/Righttreepic.png')); ?>" alt="img" width="220" height="146" loading="lazy">
+    </div>
     </section>
 <?php /**PATH C:\Users\rubay\Desktop\New folder\snapair-erp\resources\views/components/frontend/testominal-section.blade.php ENDPATH**/ ?>

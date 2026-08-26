@@ -1,3 +1,4 @@
+
 <footer class="bg-indigo-950 pt-14 pb-6 px-6 lg:px-16">
     <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
         <!-- Brand -->
@@ -7,7 +8,7 @@
                     alt="{{ $settings?->site_name ?? 'Logo' }}" />
             </a>
             <p class="text-white/50 text-sm leading-relaxed mb-5">
-                {{  ($settings?->site_tagline ?? '') }}
+                {{ $settings?->site_tagline ?? '' }}
             </p>
             <div class="flex gap-3">
                 <a href="#"
@@ -103,10 +104,12 @@
                         class="text-white/50 text-sm hover:text-lime-400 transition-colors">{{ $settings?->email ?? '' }}</a>
                 </li>
                 <li>
-                    <a href="#" class="text-white/50 text-sm hover:text-lime-400 transition-colors">{{ $settings?->phone_primary ?? '' }}
+                    <a href="#"
+                        class="text-white/50 text-sm hover:text-lime-400 transition-colors">{{ $settings?->phone_primary ?? '' }}
                     </a>
                 </li>
-                <li><span class="text-white/50 text-sm">{{ $settings?->address_line ?? ''}}, {{ $settings?->city ?? '' }}, {{ $settings?->country ?? '' }}</span></li>
+                <li><span class="text-white/50 text-sm">{{ $settings?->address_line ?? '' }},
+                        {{ $settings?->city ?? '' }}, {{ $settings?->country ?? '' }}</span></li>
                 <li><span class="text-white/50 text-sm">Mon–Fri, 9am–6pm</span></li>
             </ul>
         </div>

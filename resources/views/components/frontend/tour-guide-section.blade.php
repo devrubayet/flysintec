@@ -23,7 +23,7 @@
                     <!-- Text Overlay (Placed precisely inside the circle) -->
                     <div class="absolute top-[12%] sm:top-[15%] z-10 w-full px-4">
                         <h3
-                            class="font-display font-normal 2xl:text-52 sm:text-40 text-28 leading-[1.2] text-[#1b4332] pb-1">
+                            class="font-display font-normal 2xl:text-52 sm:text-40 text-3xl leading-[1.2] text-[#1b4332] pb-1">
                             Meet with
                         </h3>
                         <span
@@ -34,7 +34,7 @@
 
                     <!-- Main Travel/People Image -->
                     <img src="{{ asset('img/travelsbg.png') }}" alt="Travel Guide"
-                        class="relative z-0 w-[85%] sm:w-full max-w-[739px] h-auto mt-16 sm:mt-20" loading="lazy">
+                        class="relative z-15 w-[65%] sm:w-94 max-w-[539px] rounded-b-full h-auto mt-16 sm:mt-20" loading="lazy">
 
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 <footer class="bg-indigo-950 pt-14 pb-6 px-6 lg:px-16">
     <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
         <!-- Brand -->
@@ -7,7 +8,7 @@
                     alt="<?php echo e($settings?->site_name ?? 'Logo'); ?>" />
             </a>
             <p class="text-white/50 text-sm leading-relaxed mb-5">
-                <?php echo e(($settings?->site_tagline ?? '')); ?>
+                <?php echo e($settings?->site_tagline ?? ''); ?>
 
             </p>
             <div class="flex gap-3">
@@ -104,11 +105,13 @@
                         class="text-white/50 text-sm hover:text-lime-400 transition-colors"><?php echo e($settings?->email ?? ''); ?></a>
                 </li>
                 <li>
-                    <a href="#" class="text-white/50 text-sm hover:text-lime-400 transition-colors"><?php echo e($settings?->phone_primary ?? ''); ?>
+                    <a href="#"
+                        class="text-white/50 text-sm hover:text-lime-400 transition-colors"><?php echo e($settings?->phone_primary ?? ''); ?>
 
                     </a>
                 </li>
-                <li><span class="text-white/50 text-sm"><?php echo e($settings?->address_line ?? ''); ?>, <?php echo e($settings?->city ?? ''); ?>, <?php echo e($settings?->country ?? ''); ?></span></li>
+                <li><span class="text-white/50 text-sm"><?php echo e($settings?->address_line ?? ''); ?>,
+                        <?php echo e($settings?->city ?? ''); ?>, <?php echo e($settings?->country ?? ''); ?></span></li>
                 <li><span class="text-white/50 text-sm">Mon–Fri, 9am–6pm</span></li>
             </ul>
         </div>

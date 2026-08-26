@@ -143,7 +143,7 @@
     </style>
 </head>
 
-<body class="font-body light">
+<body data-theme="dark" class="font-body light" >
     <x-frontend.navbar />
     <!-- HEADER END -->
 
