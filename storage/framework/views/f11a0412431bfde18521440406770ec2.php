@@ -62,6 +62,42 @@
                                 </h3>
                             </div>
                         </div>
+                        <!--BOX-2 (Kashmir)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&auto=format&fit=crop&q=80" alt="Kashmir" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Kashmir</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">32 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-2 (Kashmir)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&auto=format&fit=crop&q=80" alt="Kashmir" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Kashmir</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">32 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <!--BOX-2 (Kashmir)-->
+                        <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
+                            <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
+                                <div class="trv-media">
+                                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&auto=format&fit=crop&q=80" alt="Kashmir" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                </div>
+                                <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
+                                    <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Kashmir</a>
+                                    <span class="block text-base font-medium text-white duration-500 group-hover:text-heading">32 Listing</span>
+                                </h3>
+                            </div>
+                        </div>
                         <!--BOX-3 (Thailand)-->
                         <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
                             <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
@@ -123,8 +159,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next !size-14 rounded-full bg-citrusyellow text-white! hover:text-citrusyellow! hover:!bg-white after:text-base!"></div>
-                    <div class="swiper-button-prev !size-14 rounded-full bg-citrusyellow text-white! hover:text-citrusyellow! hover:!bg-white after:text-base!"></div>
+                    <div class="swiper-button-next size-14  rounded-full bg-white text-indigo-950! hover:text-idigo-950! hover:!bg-white after:text-base!"></div>
+                    <div class="swiper-button-prev size-14 rounded-full bg-white text-indigo-950! hover:text-indigo-950! hover:!bg-white after:text-base!"></div>
                 </div>
             </div>
         </div>

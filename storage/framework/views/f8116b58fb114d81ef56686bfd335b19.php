@@ -28,14 +28,17 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Vite Assets -->
+    <!-- Vite Assets (CSS & JS) -->
     <?php echo app('Illuminate\Foundation\Vite')(['resources/css/app.css', 'resources/js/app.js']); ?>
-     <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
+        
+    <?php echo $__env->yieldPushContent('styles'); ?>
 </head>
 
 <body>
@@ -90,49 +93,11 @@
 <?php unset($__componentOriginal8ab008c7fdbb32d76d8e812a6af72cc5); ?>
 <?php endif; ?>
 
-    <!-- Swiper JS -->
+    <!-- Swiper JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    
-    <!-- Mobile Navbar Toggle Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuBtn = document.getElementById('menu-btn');
-            const navbar = document.getElementById('navbar-default');
-            
-            const topLine = document.getElementById('top-line');
-            const middleLine = document.getElementById('middle-line');
-            const bottomLine = document.getElementById('bottom-line');
 
-            if (menuBtn && navbar) {
-                menuBtn.addEventListener('click', () => {
-                    const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
-                    menuBtn.setAttribute('aria-expanded', !isExpanded);
-
-                    if (isExpanded) {
-                        // 1. Menu close
-                        navbar.classList.remove('max-h-96', 'opacity-100');
-                        navbar.classList.add('max-h-0', 'opacity-0');
-
-                        // 2. Back to Hamburger (Normal ৩ টা সমান্তরাল দাগ)
-                        topLine.setAttribute('d', 'M4 6h16');
-                        middleLine.classList.remove('opacity-0');
-                        bottomLine.setAttribute('d', 'M4 18h16');
-                    } else {
-                        // 1. Menu open
-                        navbar.classList.remove('max-h-0', 'opacity-0');
-                        navbar.classList.add('max-h-96', 'opacity-100');
-
-                        // 2. Transform to PERFECT Cross (✕)
-                        topLine.setAttribute('d', 'M6 18L18 6M6 6l12 12');
-                        
-                        // Majher ar nicher line absolute invisible/shunno kore dewa hocche
-                        middleLine.classList.add('opacity-0');
-                        bottomLine.setAttribute('d', 'M12 12h0'); 
-                    }
-                });
-            }
-        });
-    </script>
+    <!-- Stack for Page Specific Scripts -->
+    <?php echo $__env->yieldPushContent('scripts'); ?>
 </body>
 
 </html><?php /**PATH C:\Users\rubay\Desktop\New folder\snapair-erp\resources\views/layouts/frontend/layouts.blade.php ENDPATH**/ ?>
