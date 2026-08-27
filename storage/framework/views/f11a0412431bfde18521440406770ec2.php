@@ -114,7 +114,7 @@
                         <div class="swiper-slide group !flex-1 sm:hover:!flex-2 duration-500 !transition-all">
                             <div class="mb-px border border-white/40 rounded-3xl p-3.75 duration-500 bg-primary group-hover:bg-light">
                                 <div class="trv-media">
-                                    <img src="https://images.unsplash.com/photo-1589182337358-2cb6a099fea5?w=600&auto=format&fit=crop&q=80" alt="Mauritius" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
+                                    <img src="https://images.unsplash.com/photo-1507187632231-5beb21a654a2?w=600&auto=format&fit=crop&q=80" alt="Mauritius" class="h-87 object-cover object-center rounded-2xl w-full" width="291" height="348" loading="lazy">
                                 </div>
                                 <h3 class="text-center text-28 font-medium mt-3.75 mb-1.25">
                                     <a class="text-white duration-500 mb-2.5 block group-hover:text-heading" href="destination-detail.html">Mauritius</a>

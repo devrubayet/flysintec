@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="./output.css" rel="stylesheet" />
+    {{-- <link href="./output.css" rel="stylesheet" /> --}}
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <link rel="icon" type="image/x-icon" src="{{ asset('storage/' . ($settings?->favicon ?? '')) }}"/>
+    <title>{{ $settings?->site_name ?? '' }} | {{ $settings?->site_tagline ?? '' }}</title>
     <!-- Vite Assets -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
