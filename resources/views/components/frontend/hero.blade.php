@@ -81,12 +81,12 @@
                                                         <button type="button" value="-" data-field="quantity"
                                                             aria-label="Decrease quantity"
                                                             class="button-minus cursor-pointer size-6 leading-6 text-center text-base text-input bg-gray-100 rounded">
-                                                            <i class="las la-minus text-sm" aria-hidden="true"></i>
+                                                            <i class="fa-solid fa-minus text-sm" aria-hidden="true"></i>
                                                         </button>
                                                         <button type="button" value="+" data-field="quantity"
                                                             aria-label="Increase quantity"
                                                             class="button-plus cursor-pointer size-6 leading-6 text-center text-base text-input bg-gray-100 rounded">
-                                                            <i class="las la-plus text-sm" aria-hidden="true"></i>
+                                                            <i class="fa-solid fa-plus text-sm" aria-hidden="true"></i>
                                                         </button>
                                                     </span>
                                                 </div>
@@ -96,7 +96,7 @@
                                         <!-- Submit Button -->
                                         <div class="lg:w-auto w-full flex justify-center">
                                             <button type="submit"
-                                                class="text-28 rounded-2lg sm:rounded-full size-15 bg-secondary text-primary max-lg:!w-full duration-500 cursor-pointer hover:bg-citrusyellow flex items-center justify-center"
+                                                class="text-28 rounded-2lg sm:rounded-full size-15 bg-indigo-950 text-white max-lg:!w-full duration-500 cursor-pointer hover:bg-citrusyellow flex items-center justify-center"
                                                 aria-label="Search">
                                                 <i class="fa-solid fa-magnifying-glass"></i>
                                             </button>
