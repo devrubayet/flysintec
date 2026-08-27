@@ -104,11 +104,13 @@
                                     <circle cx="12" cy="12" r="4" />
                                 </svg></button>
                             <button
-                                class="w-6 h-6 bg-teal-800 rounded-full flex items-center justify-center text-white hover:bg-teal-600 transition-colors"><svg
+                                class="w-6 h-6 bg-teal-800 rounded-full flex items-center justify-center text-white hover:bg-teal-600 transition-colors">
+                                <svg
                                     class="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 24 24">
                                     <path
                                         d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                                </svg></button>
+                                </svg>
+                            </button>
                         </div>
                         <p class="text-teal-700 font-bold text-sm">Alexis Cox</p>
                         <p class="text-amber-500 text-xs">Tourist Guide</p>
@@ -170,11 +172,12 @@
                                     <circle cx="12" cy="12" r="4" />
                                 </svg></button>
                             <button
-                                class="w-6 h-6 bg-teal-800 rounded-full flex items-center justify-center text-white hover:bg-teal-600 transition-colors"><svg
-                                    class="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 2424">
+                                class="w-6 h-6 bg-teal-800 rounded-full flex items-center justify-center text-white hover:bg-teal-600 transition-colors">
+                                <svg class="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 24 24">
                                     <path
                                         d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                                </svg></button>
+                                </svg>
+                            </button>
                         </div>
                         <p class="text-teal-700 font-bold text-sm">Crawford</p>
                         <p class="text-amber-500 text-xs">Tourist Guide</p>
